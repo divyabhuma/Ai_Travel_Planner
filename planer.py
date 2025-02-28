@@ -2,9 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import json
 from datetime import datetime
-
-# Configure API Key
-API_KEY = "AIzaSyDX-UyxgsUZZiVBjfe4GFPxXOXEVjx_igQ"  # Replace with your actual API key
+API_KEY = "API_KEY"  
 genai.configure(api_key=API_KEY)
 
 def get_travel_recommendations(source, destination, travel_date):
